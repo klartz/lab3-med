@@ -1,0 +1,85 @@
+1 sleep  0 28 init
+2 sleep  0 13 sh
+3 sleep  0 92 sh
+10 sleep  0 89 sh
+5 sleep  0 95 iobench
+7 sleep  0 91 iobench
+9 runble 0 531 iobench
+
+10: 251658 KFLOP100T
+					5: 223 IOP100T
+
+1 sleep  0 29 init
+2 sleep  0 14 sh
+10 run    2 345 cpubench
+5 runble 0 351 iobench
+7 sleep  0 173 iobench
+9 sleep  0 834 iobench
+					7: 159 IOP100T
+					9: 256 IOP100T
+					5: 365 IOP100T
+10: 200324 KFLOP100T
+					9: 846 IOP100T
+
+1 sleep  0 29 init
+2 sleep  0 14 sh
+10 run    2 587 cpubench
+5 sleep  0 1535 iobench
+7 sleep  0 1194 iobench
+9 runble 0 1841 iobench
+
+10: 263171 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+10: 263171 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+					9: 33 IOP100T
+10: 263171 KFLOP100T
+
+1 sleep  0 29 init
+2 sleep  0 14 sh
+10 run    2 1412 cpubench
+5 sleep  0 1673 iobench
+7 sleep  0 1332 iobench
+9 runble 0 2666 iobench
+
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+					9: 33 IOP100T
+10: 263171 KFLOP100T
+10: 259776 KFLOP100T
+					9: 33 IOP100T
+
+1 sleep  0 29 init
+2 sleep  0 14 sh
+10 run    2 1879 cpubench
+5 sleep  0 1751 iobench
+7 sleep  0 1410 iobench
+9 runble 0 3133 iobench
+
+10: 258110 KFLOP100T
+					9: 33 IOP100T
+10: 263171 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+10: 263171 KFLOP100T
+					9: 33 IOP100T
+
+1 sleep  0 29 init
+2 sleep  0 14 sh
+10 run    2 2659 cpubench
+5 sleep  0 1881 iobench
+7 sleep  0 1540 iobench
+9 runble 0 3913 iobench
+
+10: 261462 KFLOP100T
+					9: 33 IOP100T
+10: 263171 KFLOP100T
+					9: 33 IOP100T
+10: 261462 KFLOP100T
+					9: 33 IOP100T
